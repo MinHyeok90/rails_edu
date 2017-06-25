@@ -1,0 +1,7 @@
+업데이트 페이지<br>
+<hr>
+<form action="/blog/real_update/<%=@one_post.id%>" method="POST">
+    <input type="text" name="title" value="<%=@one_post.title%>"><br>
+    <textarea name="contents"><%=@one_post.contents%></textarea><br>
+    <input type="submit" value="작성하기"><br>
+</form>
